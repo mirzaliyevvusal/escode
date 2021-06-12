@@ -1,2 +1,2 @@
 # escode
-escode frontend
+Bootstrap5,Html5,css3,Javascript
