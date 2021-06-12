@@ -1,0 +1,235 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .top-menu {
+        font-size: 8px;
+    }
+    .banner-contact ul {
+        font-size: 8px;
+    }
+    .banner-contact ul li {
+        margin-right: 10px;
+    }
+    .radius-elements{
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .radius-1{
+        margin-bottom: 20px;
+    }
+
+    a.online-help{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    ul.upload-btn{
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: space-between !important;
+    }
+    ul.upload-btn li{
+        margin-right: 0px;
+    }
+
+    .search-main{
+        margin-top:30px;
+        flex-flow: column;
+    }
+    .tab-content .input-group{
+        margin-bottom:10px;
+    }
+    .text-tab{
+        text-align: right;
+    }
+    .search-all{
+        margin-top: 10px;
+    }
+    .calculation{
+        margin-left:0px;
+        border-left:0px;
+        border-top:1px solid #c4c7ca;
+    }
+    .partner .card-body {
+        padding: 10px 0px 10px 25px;
+    }
+    .carousel-number ul{
+        margin-bottom: 30px;
+    }
+    .search-country{
+        width: 100%;
+    }
+    .search-form .form-control{
+        margin-bottom:10px;
+    }
+    .search-form .form-select{
+        margin-bottom:10px;
+    }
+    .card-left{
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,.125);
+        margin-bottom:30px;
+    }
+    .card-right .card-rightIn{
+        flex-flow: column;
+    }
+    .card-right .user-img li{
+        text-align: left;
+        margin-right:20px;
+    }
+    
+    .card-right .user-img ul{
+        display: flex;
+        flex-flow: row;
+        margin-bottom:30px;
+    }
+    .card-right .user-img .custom-file-upload{
+        margin-top:30px;
+    }
+    .card-right .user-info ul{
+        flex-flow: column;
+    }
+    .card-right .user-info ul li.user-edit{
+       padding-left: 0px;
+       margin-top:20px;
+    }
+    .user-info2 ul {
+        margin-right: 10px;
+    }
+    .user-info2 ul li.user-info2-info strong {
+        font-size: 8px;
+    }
+    .nav-link {
+        padding: .1rem .4rem;
+    }
+    .search-tab span{
+        font-size:20px;
+    }
+    .carousel-person .carousel-inner .card{
+        margin-bottom: 20px; 
+    }
+    .carousel-person .carousel-control-next{
+        width: inherit;  
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    
+    .partner .card-body ul li {
+        padding: 0px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .top-menu {
+        font-size: 8px;
+    }
+    .banner-contact ul {
+        font-size: 8px;
+    }
+    .sosial li a {
+        margin-right: 3px;
+    }
+
+    .radius-elements{
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .radius-1{
+        margin: 10px;
+    }
+
+    .search-main{
+        margin-top:30px;
+    }
+    .tab-content .input-group{
+        margin-bottom:10px;
+    }
+    .text-tab{
+        text-align: right;
+    }
+    .search-all{
+        margin-top: 10px;
+    }
+
+    .calculation{
+        margin-left:0px;
+        border-left:0px;
+        border-top:1px solid #c4c7ca;
+    }
+
+    .footer-app ul{
+        flex-wrap: wrap-reverse;
+    }
+    .footer-app ul li{
+        margin-bottom: 10px;
+    }
+
+    .partner .card-body {
+        padding: 10px 0px 10px 55px;
+    }
+    .carousel-number ul{
+        margin-bottom: 30px;
+    }
+
+    .search-form .form-control{
+        margin-bottom:10px;
+    }
+    .search-form .form-select{
+        margin-bottom:10px;
+    }
+    
+
+    .card-left{
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,.125);
+        margin-bottom:30px;
+    }
+    .card-right .card-rightIn{
+        flex-flow: column;
+    }
+    .card-right .user-img li{
+        text-align: left;
+        margin-right:20px;
+    }
+    
+    .card-right .user-img ul{
+        display: flex;
+        flex-flow: row;
+        margin-bottom:30px;
+    }
+    .card-right .user-img .custom-file-upload{
+        margin-top:30px;
+    }
+    .card-right .user-info ul{
+        flex-flow: column;
+    }
+    .card-right .user-info ul li.user-edit{
+       padding-left: 0px;
+       margin-top:20px;
+    }
+    .user-info2 ul {
+        margin-right: 10px;
+    }
+    .user-info2 ul li.user-info2-info strong {
+        font-size: 8px;
+    }
+    .nav-link {
+        padding: .1rem .4rem;
+    }
+    .card-left ul li a i {
+        margin-right: 0px;
+        font-size: 16px;
+        width: 20px;
+    }
+    .card-left ul li a {
+        font-size: 16px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { }
